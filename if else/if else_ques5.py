@@ -1,7 +1,7 @@
-quantity = int(input("Enter the quantity "))
+quantity = int(input("Enter the quantity = "))
 
 if quantity*100 >1000:
-    print("Cost is"), ((quantity*100)-(0.1*quantity*100))
+    print("Cost is", ((quantity*100)-(0.1*quantity*100)))
 
 else:
-    print("Cost is"), (quantity*100)
+    print("Cost is", (quantity*100))

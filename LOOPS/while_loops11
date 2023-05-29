@@ -1,0 +1,11 @@
+#write a program in python to display the factorial of a number
+#Factorial of a number (5!) = 5*4*3*2*1
+#i(initialize the variable)
+
+num = int(input("Enter the number to find the factorial of that number = "))
+i = num
+factorial = i*num
+while i>=num:
+    factorial = i*num
+    i = i-1
+print("Factorial of a number", factorial)

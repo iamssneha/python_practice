@@ -1,0 +1,14 @@
+#write a python program to find sum of square first 'n' natural numbers
+#find from 1 to n
+#let's suppose n = 567 i.e. sum =  5+6+7 and square = 5^2 + 6^2 + 7^2
+#i (intialize the varibale)
+#n (upto which you wan to print)
+
+n = int(input("Enter the number = "))
+i = 1
+sum = 0
+square = i*i
+while i<=n:
+    sum = sum + (i*i)
+    i = i+1
+print("Sum = ",sum)

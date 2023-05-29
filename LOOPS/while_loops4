@@ -1,0 +1,14 @@
+#write a program to print first 'n' natural nubers in reverse order
+#In this case we have to enter a value from the  user
+#let's suppose n = 45, n = 20 , n =5 etc.
+#n = intialize the variable (starting)
+#i = upto which u want to print (ending)
+
+
+n = int(input("Enter the natural number = "))
+i = n
+while i>=1:
+    print(i)
+    i = i-1
+
+

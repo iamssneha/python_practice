@@ -1,0 +1,10 @@
+#write a program to print 'N' natural number in desecnding order 
+#i (initialize the variable)
+#N (natural number upto which you want to print)
+#example: 6,5,4,3,2,2,1
+
+n = int(input("Enter the natural number upto which you want to print = "))
+i = n
+while i>=1:
+    print(i)
+    i = i-1

@@ -1,0 +1,11 @@
+#write a program to print first 'n' natural nubers
+#In this case we have to enter a value from the  user
+#let's suppose n = 45, n = 20 , n =5 etc.
+#i = intialize the variable (starting)
+#n = upto which u want to print (ending)
+
+n = int(input("Enter the natural numbers upto which you want to print = "))
+i = 1
+while i<=n:
+    print(i)
+    i = i+1

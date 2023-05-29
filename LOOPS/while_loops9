@@ -1,0 +1,15 @@
+#Python Program to find Sum of Even Numbers from 1 to N
+#i(intialize the variable)
+#N  (upto which we want the even number)
+'''This question reprsent if we have enter a value i.e. N then we have
+to print the sum of even numbers upto which you want to add
+let's suppose 8 = 2+4+6+8'''
+
+n = int(input("Even number upto which you want to add = "))
+i = 2
+sum = 0
+while i<=n:
+    sum = sum+i
+    i = i+2
+print("Sum of Even  numbers =  ",sum)
+

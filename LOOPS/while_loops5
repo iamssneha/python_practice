@@ -1,0 +1,14 @@
+#write a python program to find sum of first 'n' natural numbers
+#find from 1 to n
+#let's suppose n = 567 i.e. means 5+6+7
+#i (intialize the varibale)
+#n (upto which you wan to print)
+
+n = int(input("Enter the number upto which you wan to sum = "))
+i = 1
+sum = 0
+while i<=n:
+    sum = sum +i
+    i = i+1
+print("The sum is = ",sum)
+

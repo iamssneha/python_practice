@@ -1,0 +1,15 @@
+#Python Program to find Sum of First N Even Numbers
+#n = 6 i.e means The first 6 even numbers are : 2,4,6,8,10,12
+
+n = int(input("how many even  numbers you want to add : "))
+i = 1
+sum = 0
+count = 0
+while count<n:
+    if i%2 == 0:
+        sum = sum +i
+        count = count+1
+    i = i+1
+print ("The sum of first even numbers are : ",sum)
+
+                        
